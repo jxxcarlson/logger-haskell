@@ -1,0 +1,75 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: b38bd436176753884a9a2436ead39c443430e5b23c9e03d05114058d84b6d648
+
+name:           logger
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/logger#readme>
+homepage:       https://github.com/githubuser/logger#readme
+bug-reports:    https://github.com/githubuser/logger/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/logger
+
+library
+  exposed-modules:
+      Exec
+      Lib
+  other-modules:
+      Paths_logger
+  hs-source-dirs:
+      src
+  build-depends:
+      MissingH
+    , base >=4.7 && <5
+    , directory >=1.3.6.0 && <2
+    , monad-loops
+    , text
+  default-language: Haskell2010
+
+executable logger-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_logger
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      MissingH
+    , base >=4.7 && <5
+    , directory >=1.3.6.0 && <2
+    , logger
+    , monad-loops
+    , text
+  default-language: Haskell2010
+
+test-suite logger-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_logger
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      MissingH
+    , base >=4.7 && <5
+    , directory >=1.3.6.0 && <2
+    , logger
+    , monad-loops
+    , text
+  default-language: Haskell2010
