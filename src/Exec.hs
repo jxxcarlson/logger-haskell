@@ -14,7 +14,7 @@ import qualified Data.ByteString.Lazy as BL
 import Data.String.Utils (strip, split)
 import GHC.Float
 
-datafile = "log.csv"
+datafile = "/Users/jxxcarlson/dev/haskell/scripts/logger/log.csv"
 
 exec :: String -> IO ()
 exec str = 
