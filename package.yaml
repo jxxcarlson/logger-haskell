@@ -28,6 +28,7 @@ dependencies:
 - vector
 - bytestring
 - cassava
+- hinduce-missingh
 
 library:
   source-dirs: src

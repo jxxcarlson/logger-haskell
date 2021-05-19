@@ -11,3 +11,15 @@
 5/13/2021, 13:50, 14:25, Refactot & documtation
 5/13/2021, 14:30, 15:00, meeeting prep
 5/13/2021, 15:00, 15:30, meeting
+5/16/2021, 3:30, 5:45, first draft of heading
+5/16/2021, 9:20, 11:15, change type of viewValue and viewText
+5/16/2021, 11:45, 12:15, implement !quote
+5/17/2021, 6:40, 7:40, headings (space around)
+5/17/2021, 8:50, 10:00, Add function checkConfig and two rules
+5/17/2021, 10:35, 12:15, Add function isConsistent and new rule
+5/17/2021, 12:55, 13:55, Refactor
+5/17/2021, 14:00, 15:00, Add tests for parser configuration builds and validity
+5/17/2021, 15:00, 15:30, Meeting Caleb and Jean-Nicolas
+5/17/2021, 17:15, 18:00, Make it possible to change configs at runtime in app
+5/18/2021, 0:00, 1:40,  Update NOTES; refactor; Configuration.markup; truly minimal config
+

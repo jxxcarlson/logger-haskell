@@ -3,7 +3,14 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: hinduce-missingh-0.0.0.0@sha256:fbc489f2374eedb7f52daba3929ec57effad8eae1dfbd1fc727098a75912b503,577
+    pantry-tree:
+      size: 243
+      sha256: c6b9cf63fe96bfa150f606a436e7123952c2a7880095270f10235a75fc7da6bd
+  original:
+    hackage: hinduce-missingh-0.0.0.0@sha256:fbc489f2374eedb7f52daba3929ec57effad8eae1dfbd1fc727098a75912b503,577
 snapshots:
 - completed:
     size: 567669
