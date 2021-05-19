@@ -8,7 +8,7 @@ import           Exec (exec)
 main :: IO()
 main =
   do
-    putStrLn "\nWelcome to Lox"
+    putStrLn "\nWelcome to Logger"
     repl
 
 

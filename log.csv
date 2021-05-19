@@ -1,0 +1,13 @@
+
+5/9/2021, 9:30, 13:30, Add title to app; new module ViewMarkup; add rendering of bold and italic
+5/10/2021, 7:30, 9:00, Add buttons to switch between plain and markup view; properly handle * and _ marks; also ~; this last => change in config file
+5/10/2021, 9:00, 11:00, Work on rendering lists; respond to Rob's comments
+5/10/2021, 16:15, 17:00, Bulleted lists
+5/10/2021, 17:20, 18:45, Numbered lists
+5/12/2021, 14:00, 16:00, Image rendering
+5/12/2021, 16:25, 16:55, Render !quote
+5/12/2021, 16:55, 17:30, Video
+5/13/2021, 12:30, 13:30, Implement link
+5/13/2021, 13:50, 14:25, Refactot & documtation
+5/13/2021, 14:30, 15:00, meeeting prep
+5/13/2021, 15:00, 15:30, meeting

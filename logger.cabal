@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: b38bd436176753884a9a2436ead39c443430e5b23c9e03d05114058d84b6d648
+-- hash: a2ff25a0c65c82d1c37184af93bf09c3681438e0e5651f3dd1ba357e88f0ce4e
 
 name:           logger
 version:        0.1.0.0
@@ -28,7 +28,6 @@ source-repository head
 library
   exposed-modules:
       Exec
-      Lib
   other-modules:
       Paths_logger
   hs-source-dirs:
@@ -36,9 +35,12 @@ library
   build-depends:
       MissingH
     , base >=4.7 && <5
+    , bytestring
+    , cassava
     , directory >=1.3.6.0 && <2
     , monad-loops
     , text
+    , vector
   default-language: Haskell2010
 
 executable logger-exe
@@ -51,10 +53,13 @@ executable logger-exe
   build-depends:
       MissingH
     , base >=4.7 && <5
+    , bytestring
+    , cassava
     , directory >=1.3.6.0 && <2
     , logger
     , monad-loops
     , text
+    , vector
   default-language: Haskell2010
 
 test-suite logger-test
@@ -68,8 +73,11 @@ test-suite logger-test
   build-depends:
       MissingH
     , base >=4.7 && <5
+    , bytestring
+    , cassava
     , directory >=1.3.6.0 && <2
     , logger
     , monad-loops
     , text
+    , vector
   default-language: Haskell2010
